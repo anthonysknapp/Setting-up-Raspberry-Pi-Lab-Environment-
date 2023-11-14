@@ -33,15 +33,15 @@ Launch Rasberry Pi Imager and select device depending a which rasberry Pi you ha
 <img src="https://i.imgur.com/W6tAFDo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the Operating System, you can choose any of the distrubutions on Linux that is avaiable for a ARMs device, in this project I'm using the Ubuntu Server whis under other general-purpose OS and Ubuntu, if don't care you can use the Rasberry Pi OS which is derived from Debian much like Ubuntu: <br/>
+Select the Operating System, you can choose any of the distrubutions on Linux that is avaiable for a ARMs device, in this project I'm using the Ubuntu Server 23.10 (64-bit) whis under other general-purpose OS and Ubuntu, if don't care you can use the Rasberry Pi OS which is derived from Debian much like Ubuntu: <br/>
 <img src="https://i.imgur.com/vHQjYjZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/MbjO4LM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 <img src="https://i.imgur.com/93VwXYP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/GTrZAGc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Insert a microSD card into a card reader and select the storage device it should be label as "SDHC Card - size" other external hard drives will also appear :  <br/>
+<img src="https://i.imgur.com/X9xxnL8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
