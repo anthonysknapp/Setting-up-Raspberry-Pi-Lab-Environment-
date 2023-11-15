@@ -142,6 +142,8 @@ Before installing anything in Linux make sure the resporitory is up to date by r
 <br />
 Then run the command sudo apt upgrade to install the updates, then say yes if you want to continue, this can be bypass by adding -y to the end of the command like this: sudo apt upgrade -y
 <img src="https://i.imgur.com/aHRr4C3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+<br />
+<br />
 This would take a couple minutes to install all updates once you see  the username@ip address or service name this means that the upgrade is completed,type in sudo shutdown -r to restart the rasberry Pi, this will also close the connection so you will need to log back in 
 <img src="https://i.imgur.com/hZ86mf2.png.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 <br />
