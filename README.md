@@ -106,7 +106,8 @@ Search for the IP address depending on how your network is setup, if it is a wir
 <img src="https://i.imgur.com/GKEU1tR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
 <br />
 <br /> 
-Once you have the computer IP address launch Angry IP scanner, in this example of the network adjust the IP range from 192.168.1.1 to 192.168.1.255
+Once you have the computer IP address launch Angry IP scanner, in this example of the network adjust the IP range <br />
+from 192.168.1.1 to 192.168.1.255
 <img src="https://i.imgur.com/NJjTk8S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 <br />
 <br /> 
@@ -118,7 +119,7 @@ Run the scan by clicking on start button and then look in the MAC Vendor for Ras
 <img src="https://i.imgur.com/QIf47Ex.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 <br />
 <br /> 
-Check the connection for the Rasberry Pi by the Ping command,
+Check the connection for the Rasberry Pi by the Ping command. <br />
 <img src="https://i.imgur.com/RsJcl2T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 <br />
 <br /> 
