@@ -178,7 +178,10 @@ Now launch Webgoat by starting the container with the command: (sudo docker run 
 Go to the web brower on your host machine, the same computer the you are connecting to Rasberry Pi with and type http://[ipaddressforRasberryPi:8080/WebGoat/login into the address bar, 
 this should pullup the WebGoat that is being hosted by the Rasberry Pi <br />
 <img src="https://imgur.com/NmLYFsf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-Click on the Register new user, which is below the Sign in button, and then create a Username and Password, then agree with the terms and conditions and click on the sign up button
+<br />
+<br />
+Click on the Register new user, which is below the Sign in button, and then create a Username and Password, 
+then agree with the terms and conditions and click on the sign up button <br />
 <img src="https://imgur.com/5vsyGLe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 <br />
