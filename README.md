@@ -133,7 +133,7 @@ If sucessful this will chanage the command line to look more like Linux terminal
 <br /> 
 
 <h3> Part Two: Downloading Docker and Installing Docker </h3>
-In this part we will be downloading a shell script so we can download Docker from a online respitory and install it onto a Rasberry Pi
+In this part we will be downloading a shell script so we can download Docker from a online respitory and install it onto a Rasberry Pi,
 <br />
 <br />
 <p align="center">
@@ -175,8 +175,13 @@ Now launch Webgoat by starting the container with the command: (sudo docker run 
 <img src="https://imgur.com/1VObhlS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 <br />
-Go to the web brower on your host machine, the same computer the you are connecting to Rasberry Pi with and type http://[ipaddress]:8080/WebGoat/login into the address bar, this should pullup the WebGoat that is being hosted by the Rasberry Pi  
+Go to the web brower on your host machine, the same computer the you are connecting to Rasberry Pi with and type http://[ipaddressforRasberryPi:8080/WebGoat/login into the address bar, 
+this should pullup the WebGoat that is being hosted by the Rasberry Pi <br />
 <img src="https://imgur.com/NmLYFsf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-
-
+Click on the Register new user, which is below the Sign in button, and then create a Username and Password, then agree with the terms and conditions and click on the sign up button
+<img src="https://imgur.com/5vsyGLe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />
+After sucessfully creating an account you will be brought to mainpage for WebGoat 
+<img src="https://imgur.com/RMaxwRD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 </p>
