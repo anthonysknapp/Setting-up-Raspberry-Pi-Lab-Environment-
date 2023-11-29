@@ -132,8 +132,8 @@ If sucessful this will chanage the command line to look more like Linux terminal
 <br />
 <br /> 
 
-<h3> Part Two: Installing Portainer and installing the container containing WebGoat the Rasberry Pi </h3>
-In this part is installing portainer into the Rasberry Pi and creating a container that would contain WebGoat 
+<h3> Part Two: Downloading Docker and Installing Docker </h3>
+In this part we will be downloading a shell script so we can download Docker from a online respitory and install it onto a Rasberry Pi
 <br />
 <br />
 <p align="center">
@@ -146,12 +146,37 @@ Then run the command sudo apt upgrade to install the updates, then say yes if yo
 <br />
 <br />
 This would take a couple minutes to install all updates once you see  the username@ip address or service name this means that the upgrade is completed,type in sudo shutdown -r to restart the rasberry Pi, this will also close the connection so you will need to log back in 
-<img src="https://i.imgur.com/hZ86mf2.png.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/hZ86mf2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 <br />
 <br />
-
-
-
+After rebooting and reconnecting to the Rasberry Pi, now it is time to load Docker into the Rasberry Pi with the command curl -fsSL https://get.docker.com -o get-docker.sh
+<br />
+<img src="https://imgur.com/FMLPmoj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<br />
+<br />  
+Now install Docker by running the scirpt which was downloaded in the  pervious step, by running the command sudo sh get-docker.sh, this will take a couple of minutes to install you will when the terminal command line will reapper  
+<img src="https://imgur.com/DM5pRFg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />    
+This can be varified by typing in the command sudo docker version 
+<img src="https://imgur.com/RnvnnpN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />   
+<h3> Part Three: Downloading and Installing Webgoat onto the Rasberry Pi  </h3>
+In this part we will be downloading WebGoat and creating a container to run Webgoat 
+<br />
+<br />
+<p align="center">
+Download the image of WebGoat that was created specificly to be used on ARM processors. By using the command: (sudo docker pull cambarts/webgoat-8.0-rpi) <br />
+<img src="https://imgur.com/AavEGqU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br /> 
+Now launch Webgoat by starting the container with the command: (sudo docker run -p 8080:8080 -t cambarts/webgoat-8.0-rpi, and then wait a couple of minutes so WebGoat can
+<img src="https://imgur.com/1VObhlS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />
+Go to the web brower on your host machine, the same computer the you are connecting to Rasberry Pi with and type http://[ipaddress]:8080/WebGoat/login into the address bar, this should pullup the WebGoat that is being hosted by the Rasberry Pi  
+<img src="https://imgur.com/NmLYFsf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 
 </p>
